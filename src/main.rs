@@ -12,5 +12,9 @@ fn get_counter(time_step: u64) -> u64 {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let time_step = 30;
+
+    let counter = get_counter(time_step);
+
+    println!("Counter: {}", counter);
 }
